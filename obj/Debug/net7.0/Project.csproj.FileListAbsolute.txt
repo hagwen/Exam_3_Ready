@@ -1,0 +1,4 @@
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\obj\Debug\net7.0\Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\obj\Debug\net7.0\Project.AssemblyInfoInputs.cache
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\obj\Debug\net7.0\Project.AssemblyInfo.cs
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\obj\Debug\net7.0\Project.csproj.CoreCompileInputs.cache
