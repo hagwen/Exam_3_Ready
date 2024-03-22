@@ -2,3 +2,13 @@ C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\obj\Debug\net7.0\Projec
 C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\obj\Debug\net7.0\Project.AssemblyInfoInputs.cache
 C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\obj\Debug\net7.0\Project.AssemblyInfo.cs
 C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\obj\Debug\net7.0\Project.csproj.CoreCompileInputs.cache
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\bin\Debug\net7.0\project.exe
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\bin\Debug\net7.0\project.deps.json
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\bin\Debug\net7.0\project.runtimeconfig.json
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\bin\Debug\net7.0\project.dll
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\bin\Debug\net7.0\project.pdb
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\obj\Debug\net7.0\project.dll
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\obj\Debug\net7.0\refint\project.dll
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\obj\Debug\net7.0\project.pdb
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\obj\Debug\net7.0\project.genruntimeconfig.cache
+C:\Users\mariu\Documents\Programmering\Exam_Unit_3_Ready\obj\Debug\net7.0\ref\project.dll

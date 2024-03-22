@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mariu\\Documents\\Programmering\\Exam_Unit_3_Ready\\Project.csproj": {}
+    "C:\\Users\\mariu\\Documents\\Programmering\\Exam_Unit_3_Ready\\project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mariu\\Documents\\Programmering\\Exam_Unit_3_Ready\\Project.csproj": {
+    "C:\\Users\\mariu\\Documents\\Programmering\\Exam_Unit_3_Ready\\project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mariu\\Documents\\Programmering\\Exam_Unit_3_Ready\\Project.csproj",
-        "projectName": "Project",
-        "projectPath": "C:\\Users\\mariu\\Documents\\Programmering\\Exam_Unit_3_Ready\\Project.csproj",
+        "projectUniqueName": "C:\\Users\\mariu\\Documents\\Programmering\\Exam_Unit_3_Ready\\project.csproj",
+        "projectName": "project",
+        "projectPath": "C:\\Users\\mariu\\Documents\\Programmering\\Exam_Unit_3_Ready\\project.csproj",
         "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mariu\\Documents\\Programmering\\Exam_Unit_3_Ready\\obj\\",
         "projectStyle": "PackageReference",
