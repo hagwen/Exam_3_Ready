@@ -1,10 +1,7 @@
-
-
 class Task_2
 {
-    static void arry(string[] args)
+    static void array(string[] args)
     {
-       
         object[] nestedArray = new object[]
         {
             9827, 5976, 9561, 1422, 2184, 3858,
@@ -41,10 +38,8 @@ class Task_2
             }
         };
 
-       
         List<int> flattenedArray = FlattenArray(nestedArray);
 
-        
         Console.WriteLine("Flattened Array:");
         foreach (var item in flattenedArray)
         {
@@ -67,7 +62,7 @@ class Task_2
             }
             else
             {
-                throw new ArgumentException("Unsupported data type in array.");
+                throw new ArgumentException($"Unsupported data type '{item.GetType()}' in array.");
             }
         }
         return result;

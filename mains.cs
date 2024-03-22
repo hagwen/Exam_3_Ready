@@ -1,52 +1,44 @@
-using System;
-
 class CombinedMain
 {
     static void Main(string[] args)
     {
-        Main1(args);
-        Main2(args);
-        Main3(args);
-        Main4(args);
+        TestMathematicalFunctions();
+        FlattenNestedArray();
+        AnalyzeBinaryTree();
+        AnalyzeBooks();
     }
 
-    static void Main1(string[] args)
+    static void TestMathematicalFunctions()
     {
         Console.WriteLine("Testing mathematical functions:");
 
-        
         double num1 = 5.0;
-        double squareResult = Task_One.Square(num1);
+        double squareResult = Task_1.Square(num1);
         Console.WriteLine("Square of {0} is {1}", num1, squareResult);
 
-        
         double lengthInInches = 10.0;
-        double millimetersResult = Task_One.InchesToMillimeters(lengthInInches);
+        double millimetersResult = Task_1.InchesToMillimeters(lengthInInches);
         Console.WriteLine("{0} inches is equal to {1} millimeters", lengthInInches, millimetersResult);
 
-       
         double num2 = 16.0;
-        double sqrtResult = Task_One.SquareRoot(num2);
+        double sqrtResult = Task_1.SquareRoot(num2);
         Console.WriteLine("Square root of {0} is {1}", num2, sqrtResult);
 
-      
         double num3 = 4.0;
-        double cubeResult = Task_One.Cube(num3);
+        double cubeResult = Task_1.Cube(num3);
         Console.WriteLine("Cube of {0} is {1}", num3, cubeResult);
 
-        
         double radius = 5.0;
-        double circleAreaResult = Task_One.CircleArea(radius);
+        double circleAreaResult = Task_1.CircleArea(radius);
         Console.WriteLine("Area of a circle with radius {0} is {1}", radius, circleAreaResult);
 
-       
         string name = "John";
-        string greetingResult = Task_One.Greeting(name);
+        string greetingResult = Task_1.Greeting(name);
         Console.WriteLine(greetingResult);
         Console.WriteLine("------------------------------------------------------------------------------------------");
     }
 
-    static void Main2(string[] args)
+    static void FlattenNestedArray()
     {
         object[] nestedArray = new object[]
         {
@@ -84,10 +76,8 @@ class CombinedMain
             }
         };
 
-        
         List<int> flattenedArray = FlattenArray(nestedArray);
 
-        
         Console.WriteLine("Flattened Array:");
         foreach (var item in flattenedArray)
         {
@@ -121,10 +111,9 @@ class CombinedMain
 
     }
 
-    static void Main3(string[] args)
+    static void AnalyzeBinaryTree()
     {
         Console.WriteLine("------------------------------------------------------------------------------------------");
-        
         Node root = new Node(180);
         root.Left = new Node(918);
         root.Left.Right = new Node(379);
@@ -136,7 +125,6 @@ class CombinedMain
         root.Right = new Node(961);
         root.Right.Right = new Node(581);
 
-       
         Console.WriteLine("------------------------------------------------------------------------------------------");
         int sum = CalculateSum(root);
         Console.WriteLine("Sum of the full structure: " + sum);
@@ -184,7 +172,7 @@ class CombinedMain
     }
 
 
-    static void Main4(string[] args)
+     static void AnalyzeBooks()
     {
         List<Book> books = new List<Book>
         {
