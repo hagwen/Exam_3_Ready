@@ -4,7 +4,7 @@ class Task_2
 {
     static void arry(string[] args)
     {
-        // Define the nested array
+       
         object[] nestedArray = new object[]
         {
             9827, 5976, 9561, 1422, 2184, 3858,
@@ -41,10 +41,10 @@ class Task_2
             }
         };
 
-        // Flatten the nested array
+       
         List<int> flattenedArray = FlattenArray(nestedArray);
 
-        // Print the flattened array
+        
         Console.WriteLine("Flattened Array:");
         foreach (var item in flattenedArray)
         {

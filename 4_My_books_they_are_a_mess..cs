@@ -19,27 +19,25 @@ class task_4
             new Book { Title = "The Ocean at the End of the Lane", PublicationYear = 2013, Author = "Neil Gaiman", Isbn = "0-06-225565-7" }
         };
 
-        // Return only books starting with "The"
-
         var booksStartingWithThe = books.Where(book => book.Title.StartsWith("The")).ToList();
         Console.WriteLine("Books starting with 'The':");
         PrintBooks(booksStartingWithThe);
 
-        // Return only books written by authors with a 't' in their name
+        
         var booksAuthorsWithT = books.Where(book => book.Author.ToLower().Contains("t")).ToList();
         Console.WriteLine("\nBooks written by authors with 't' in their name:");
         PrintBooks(booksAuthorsWithT);
 
-        // The number of books written after 1992
+        
         var booksAfter1992Count = books.Count(book => book.PublicationYear > 1992);
         Console.WriteLine($"\nThe number of books written after 1992: {booksAfter1992Count}");
 
-        // The number of books written before 2004
+        
         var booksBefore2004Count = books.Count(book => book.PublicationYear < 2004);
         Console.WriteLine($"The number of books written before 2004: {booksBefore2004Count}");
 
-        // Return the isbn number of all the books for a given author
-        string authorName = "Terry Pratchett"; // Example author name
+        
+        string authorName = "Terry Pratchett";
         var isbnsForAuthor = books.Where(book => book.Author == authorName).Select(book => book.Isbn).ToList();
         Console.WriteLine($"\nISBN numbers for books by author '{authorName}':");
         foreach (var isbn in isbnsForAuthor)
@@ -47,17 +45,17 @@ class task_4
             Console.WriteLine(isbn);
         }
 
-        // List books alphabetically ascending
+       
         var booksAlphabeticallyAscending = books.OrderBy(book => book.Title).ToList();
         Console.WriteLine("\nBooks listed alphabetically (ascending):");
         PrintBooks(booksAlphabeticallyAscending);
 
-        // List books chronologically ascending
+        
         var booksChronologicallyAscending = books.OrderBy(book => book.PublicationYear).ToList();
         Console.WriteLine("\nBooks listed chronologically (ascending):");
         PrintBooks(booksChronologicallyAscending);
 
-        // List books grouped by author last name
+       
         var booksGroupedByAuthorLastName = books.GroupBy(book => book.Author.Split(' ').Last()).ToList();
         Console.WriteLine("\nBooks grouped by author last name:");
         foreach (var group in booksGroupedByAuthorLastName)
@@ -66,7 +64,7 @@ class task_4
             PrintBooks(group.ToList());
         }
 
-        // List books grouped by author first name
+       
         var booksGroupedByAuthorFirstName = books.GroupBy(book => book.Author.Split(' ').First()).ToList();
         Console.WriteLine("\nBooks grouped by author first name:");
         foreach (var group in booksGroupedByAuthorFirstName)
